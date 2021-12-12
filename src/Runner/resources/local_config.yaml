@@ -1,0 +1,38 @@
+input:
+  damage:
+    load:
+      file_location: "resources\\data\\Damages_use.csv"
+      delimiter: ","
+
+  charges:
+    load:
+      file_location: "resources\\data\\Charges_use.csv"
+      delimiter: ","
+
+  endorse:
+    load:
+      file_location: "resources\\data\\Endorse_use.csv"
+      delimiter: ","
+
+  person:
+    load:
+      file_location: "resources\\data\\Primary_Person_use.csv"
+      delimiter: ","
+
+  restrict:
+    load:
+      file_location: "resources\\data\\Restrict_use.csv"
+      delimiter: ","
+
+  vehicle:
+    load:
+      file_location: "resources\\data\\Units_use.csv"
+      delimiter: ","
+
+
+
+output:
+  log_dir: "./logs"
+  log_format: "[%(filename)s:%(lineno)s - %(funcName)20s() ]:%(levelname)s %(message)s"
+  processed_file_output: "../resources/data/sampleDataProcessed"
+

@@ -1,4 +1,0 @@
-[Run.py:35 -                 main() ]:INFO started logging
-[Processor.py:11 - find_number_of_crashes() ]:INFO solving question - 1
-[FileIO.py:34 - read_csv_as_spark_df() ]:INFO cant read file resources\data\Charges_use.csv
-[FileIO.py:34 - read_csv_as_spark_df() ]:INFO cant read file resources\data\Primary_Person_use.csv

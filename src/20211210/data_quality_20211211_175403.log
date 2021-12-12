@@ -1,9 +1,0 @@
-[Run.py:35 -                 main() ]:INFO started logging
-[Processor.py:11 - find_number_of_crashes() ]:INFO solving question - 1
-[Processor.py:49 - get_top_vehicles_injuries() ]:INFO solving question - 4
-[Processor.py:37 - get_state_max_num_femal() ]:INFO solving question - 3
-[Processor.py:23 - get_number_two_wheelers_booked() ]:INFO solving question - 2
-[Processor.py:60 - get_top_ethnic_user_group() ]:INFO solving question - 5
-[Processor.py:78 -         top_five_zip() ]:INFO solving question - 6
-[Processor.py:96 - count_distinct_crash_ids() ]:INFO solving question - 7
-[Processor.py:111 - get_top_vehicles_speeding() ]:INFO solving question - 8

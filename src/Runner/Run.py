@@ -54,9 +54,10 @@ def get_spark_session():
 
 if __name__ == "__main__":
     args = sys.argv
-    # stage = args[1]
-
-    cfg_file_path = "resources/local_config.yaml"
+    if len(sys.argv) > 1:
+        cfg_file_path = sys.argv[1]
+    else:
+        cfg_file_path = "resources/local_config.yaml"  # default value
 
     spark = get_spark_session()
     Run.main(cfg_file_path, spark)
